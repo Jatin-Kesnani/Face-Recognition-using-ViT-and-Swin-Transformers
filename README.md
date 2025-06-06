@@ -19,8 +19,7 @@ Our goal is to demonstrate the superior representational power of Swin over vani
 - [Usage](#usage)  
   - [Preparing the Data](#preparing-the-data)  
   - [Training Swin Model](#training-swin-model)  
-  - [Training ViT Model](#training-vit-model)  
-  - [Evaluation](#evaluation)  
+  - [Training ViT Model](#training-vit-model)   
 - [Results](#results)  
 - [Comparison & Discussion](#comparison--discussion)  
 - [Pros & Cons](#pros--cons)  
@@ -111,21 +110,12 @@ python vit-lfw.py \
   --learning-rate 1e-4
 ```
 
-### Evaluation
-
-1. [Swin Evaluation Metrics](https://www.kaggle.com/code/k214871emmanuel/swin-lfw-with-testing)
-2. [ViT Evaluation Metrics](https://www.kaggle.com/code/jatinkesnani2003/vit-lfw-dlp-final-project)
-
 ## Results
 
 | Model         | Test Accuracy (%) | Loss   |
 | ------------- | ----------------- | ------ |
 | Swin          | 85.12             | 1.4142 |
 | ViT (scratch) | 96.66             | 0.2387 |
-
-The trained models can be found on this link:
-
-[Face Recognition Trained Models using ViT and Swin Transformers on LFW Dataset](https://drive.google.com/drive/folders/1hbdr1LVDz2pHtKFv55q0Lo3KviPJVt1t?usp=drive_link)
 
 *Key takeaway:* Swin Transformer outperforms ViT by a substantial margin in both recognition accuracy and ROC AUC, while also delivering faster inference due to its hierarchical design.
 
