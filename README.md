@@ -24,9 +24,7 @@ Our goal is to demonstrate the superior representational power of Swin over vani
 - [Results](#results)  
 - [Comparison & Discussion](#comparison--discussion)  
 - [Pros & Cons](#pros--cons)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)  
+- [Contributing](#contributing)    
 
 ## Features
 
