@@ -1,8 +1,5 @@
 # Face Recognition using ViT and Swin Transformers
 
-[![Python Version](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 ## Description
 
 This repository implements and compares two transformer-based face recognition pipelines:
@@ -54,7 +51,7 @@ data/lfw-deepfunneled/
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/muhammadhamzagova666/face-recognition-vit-and-swin.git
+   git clone https://github.com/Jatin-Kesnani/Face-Recognition-using-ViT-and-Swin-Transformers.git
    cd face-recognition-vit-and-swin
    ```
 
